@@ -1,0 +1,28 @@
+.story_cover_item {
+  margin: 0 0.5rem;
+  border-radius: 13px;
+  overflow: hidden;
+  position: relative;
+}
+.story_cover_item > p {
+  position: absolute;
+  top: 9px;
+  left: 7px;
+  font-size: 11px;
+  line-height: 12.89px;
+  font-weight: 600;
+  font-family: Roboto;
+  color: var(--громкий-текст);
+}
+
+.closeBtn_relative {
+  position: relative;
+}
+.closeBtn_icon {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  z-index: 1000;
+  color: white;
+  font-size: 32px;
+}
